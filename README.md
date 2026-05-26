@@ -99,6 +99,14 @@ pyinstaller --noconfirm ScreenOffTimer.spec
 
 **要求**：已安装 [Python 3.10+](https://www.python.org/downloads/)，安装时勾选 *Add to PATH* 与 *tcl/tk*。
 
+### 用 GitHub Actions 构建（无需 Windows 电脑）
+
+1. 打开仓库 [Actions](https://github.com/lostanother/screen-off-timer/actions) 页
+2. 选择 **Build Windows exe** → **Run workflow** → **Run workflow**
+3. 运行结束后点进该次任务，在 **Artifacts** 中下载 `ScreenOffTimer-windows`（内含 `ScreenOffTimer.exe`）
+
+推送到 `main` 分支且改动涉及源码时也会自动触发构建。
+
 ## Linux AppImage 可选环境变量
 
 - `ARCH=aarch64` — 构建 ARM64 包（需对应架构构建机）
