@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=延时熄屏
+Name[en]=Screen Off Timer
+Comment=Turn off the display after a countdown
+Comment[zh_CN]=在指定秒数倒计时后关闭显示器
+Exec=screen-off-timer
+Icon=screen-off-timer
+Categories=Utility;
+Terminal=false
+StartupNotify=true

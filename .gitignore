@@ -1,0 +1,29 @@
+# Build outputs
+AppDir/
+.build/
+dist/
+build/
+*.spec.bak
+
+# AppImage / Windows exe (build locally or via CI)
+*.AppImage
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+ENV/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# PyInstaller
+*.manifest
